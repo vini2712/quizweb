@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    height: 100vh;
+    overflow: hidden;
+}
+.login {
+    text-align: center;
+    margin: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: solid gold;
+    border-radius: 5px;
+}
+.txt_field {
+    margin: 30px;
+    color: aliceblue;
+    font-weight: 600;
+}
+#input {
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+}
+.pass {
+    text-align: right;
+    font-size: 13px;
+    color: greenyellow;
+}
+.pass:hover {
+    font-style: oblique;
+    cursor: pointer;
+    color :cyan;
+}
+.btn {
+    width: 15rem;
+    height: 40px;
+    background-color: #1e88cf;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #0092f3;
+    cursor: pointer;
+}
+.signup_link {
+    color: azure;
+}
+a {
+    color: #0092f3;
+}
+a:hover {
+    color: #eca452;
+}
+h4 button {
+    width: 55px;
+    padding: 5px;
+    margin: 5px;
+}
+
+h4 button:hover {
+    background-color: #0092f3;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
