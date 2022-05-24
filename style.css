@@ -87,6 +87,7 @@ h4 {
     color: #1e3dec;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 15px;
+    background-color: gold;
 }
 h5 {
     text-align: end;
@@ -97,3 +98,51 @@ h5 {
 .logo {
     clip-path: circle(60% at 50% 50%);
 }
+.logo:hover {
+    cursor: pointer;
+}
+#scroll-container {
+    border: 3px solid white;
+    border-radius: 5px;
+  }
+  #scroll-text {
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+  }
+  
+@-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+}
+.quiz_timer {
+    display: flex;
+    height: 50px;
+    width: 120px;
+    padding: 20px;
+    background-color: #341f97;
+    color: #fff;
+    font-size: 15px;
+    text-align: end;
+  }
+  .quiz_timer .time {
+      text-align: end;
+  }

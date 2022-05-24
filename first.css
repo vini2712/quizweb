@@ -29,8 +29,11 @@ h1 {
     border-radius: 8px;
     padding: 20px;
 }
-.logo {
+#logo {
     clip-path: circle(50% at 50% 50%);
+}
+#logo:hover {
+    cursor:pointer
 }
 .lgn {
     text-align: end;
