@@ -133,16 +133,4 @@ h5 {
       transform: translateX(-100%);
     }
 }
-.quiz_timer {
-    display: flex;
-    height: 50px;
-    width: 120px;
-    padding: 20px;
-    background-color: #341f97;
-    color: #fff;
-    font-size: 15px;
-    text-align: end;
-  }
-  .quiz_timer .time {
-      text-align: end;
-  }
+
