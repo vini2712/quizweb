@@ -147,7 +147,7 @@ submit.addEventListener('click' , ( ) => {
         <h3> You Scored ${score}/${quizDB.length} ✌️ </h3>
         <button class = "btn" onclick = "location.reload()">Play Again </button>    
        
-        <a href="start.html">
+        <a href="index.html">
         <button class = "btn"  >Quit </button>   
         </a> 
        `;  

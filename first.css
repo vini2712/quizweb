@@ -52,6 +52,6 @@ h2 {
 .lgn:hover,
 #btn:hover,
 #btn_about:hover {
-    background-color: rgb(209, 166, 85);
+    background-color: #0092f3;
     cursor: pointer;
 }
